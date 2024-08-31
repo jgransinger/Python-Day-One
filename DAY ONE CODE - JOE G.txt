@@ -1,0 +1,60 @@
+#-STRINGS ------------------------------
+#Printing a Recipe ---
+print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
+print("2. Knead the dough for 10 minutes.")
+print("3. Add 3g of Salt.")
+print("4. Leave to rise for 2 hours.")
+print("5. Bake at 200 degrees C for 30 minutes.\n\n")
+
+#Printing multiple lines with \n---
+
+print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.\n2. Knead the dough for 10 minutes.\n"
+      "3. Add 3g of Salt.\n4. Leave to rise for 2 hours.\n5. Bake at 200 degrees C for 30 minutes.\n\n")
+
+#Concatenate Strings ---
+print("Hello" + " " + "Joe")
+print ("Hello" + " Joe")
+
+# Write your code below this line 👇
+print("Hello world!")
+
+#-INPUTS-=--------------------------------------
+
+#simple input start
+input("What is your name?")
+
+#print and add response to input
+print("Hello " + input("What is your name?"))
+
+#input challenge to add exclamation point
+print("Hello " + input("What is your name?") + "!")
+
+#-VARIABLES ---------------------------------------
+
+name = input("What is your name?: ")
+print("Hello, " + name + ".")
+
+number = input("Type a number: ")
+print ("You've chosen " + number + ".")
+
+print("The number of letters in your name is: ")
+print(len(name))
+
+#Other option to get name length + print number
+# print(len(input("Type a name, and this will return the length: ")))
+
+#-BAND NAME GENERATOR CHALLENGE ---------------
+
+username = input("Username: ")
+length = len(username)
+print(length)
+
+print("Hello, and welcome to the Band Name Generator App!\n")
+
+city = input("To start, what city are you from?: \n")
+pet = input("What is the name of your pet?: \n")
+
+print("Your band could be named: The " + city + " " + pet + "s")
+print("Or you could use: " + pet + "s" + " of " + city + "!\n")
+
+
